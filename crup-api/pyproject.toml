@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kerebro-crud-api"
+version = "0.1.0"
+description = ""
+authors = ["lo0kat <louis.chomel@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kerebro_crud_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.94.0"
+pydantic = "^1.10.6"
+uvicorn = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
